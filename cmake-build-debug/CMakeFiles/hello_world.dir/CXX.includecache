@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kus/src/2018/765-28/me/src/hello-world/Person.cpp
+Person.h
+/home/kus/src/2018/765-28/me/src/hello-world/Person.h
+chrono
+-
+
+/home/kus/src/2018/765-28/me/src/hello-world/Person.h
+string
+-
+utility
+-
+
+/home/kus/src/2018/765-28/me/src/hello-world/main.cpp
+iostream
+-
+Person.h
+/home/kus/src/2018/765-28/me/src/hello-world/Person.h
+
