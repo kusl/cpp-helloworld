@@ -1,0 +1,15 @@
+image: gcc:latest 
+
+build:
+  stage: build
+  script: 
+    - g++ main.cpp -o mybinary
+  artifacts:
+    path:
+      - mybinary
+
+test:
+  stage: test
+  script:
+    - ./mybinary
+
