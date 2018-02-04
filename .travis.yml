@@ -19,4 +19,5 @@ compiler: gcc
 script: 
   - g++ --version
   - g++ Person.cpp main.cpp -o mybinary -std=gnu++11
-
+  - ls -a
+  - ./mybinary
