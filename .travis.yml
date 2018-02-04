@@ -17,5 +17,6 @@ language: cpp
 compiler: gcc 
 
 script: 
+  - g++ --version
   - g++ Person.cpp main.cpp -o mybinary
 
