@@ -18,5 +18,5 @@ compiler: gcc
 
 script: 
   - g++ --version
-  - g++ Person.cpp main.cpp -o mybinary
+  - g++ Person.cpp main.cpp -o mybinary -std=gnu++11
 
