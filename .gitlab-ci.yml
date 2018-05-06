@@ -1,15 +1,15 @@
-image: gcc:latest 
+image: gcc:latest
 
 build:
   stage: build
-  script: 
+    script:
     - g++ Person.cpp main.cpp -o mybinary -std=gnu++11
-  artifacts:
-    path:
-      - mybinary
+    artifacts:
+    paths:
+    - mybinary
 
 test:
   stage: test
-  script:
+    script:
     - ./mybinary
 
