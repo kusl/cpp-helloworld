@@ -9,5 +9,8 @@ build:
 
 test:
   script:
-  - ./mybinary
+  - pwd 
+  - ls -a 
+  - df -h 
+  - du -sh
 
