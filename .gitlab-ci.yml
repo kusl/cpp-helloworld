@@ -3,7 +3,7 @@ image: gcc:latest
 build:
   stage: build
   script: 
-    - g++ main.cpp -o mybinary -std=gnu++11
+    - g++ Person.cpp main.cpp -o mybinary -std=gnu++11
   artifacts:
     path:
       - mybinary
